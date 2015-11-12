@@ -5,13 +5,13 @@
 a simple hash router extension for JQM, for handling url hash paths requests like '#user?id=1234'
 
 ### Install ###
-
+```html
 	<script src="jquery.mobile-1.4.4.js" type="text/javascript"></script>
 	<script src="jquery.mobile.router.js" type="text/javascript"></script>
-
+```
 
 ### Usage ###
-	
+```javascript	
 		$(document).on('mobileinit', function(event){	
 			//define some routes and callback handlers
 			$.mobile.router.get('user', function(params) {
@@ -41,3 +41,4 @@ a simple hash router extension for JQM, for handling url hash paths requests lik
 			
 
 		})
+```
